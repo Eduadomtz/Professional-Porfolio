@@ -2,44 +2,58 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <title>Eduardo Martínez Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,200&display=swap"
+    rel="stylesheet">
+  <title>Eduardo Martínez Portfolio</title>
 
 </head>
 
 <body>
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Eduardo Martínez</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active" href="index.html">About Me</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact Me</a>
-        </li>
-    </ul>
 
- 
-
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <img src="./Images/foto.JPG" class="img-thumbnail" alt="...">
-          </div>
-          <div class="col">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat mollitia labore ut molestiae voluptatibus ipsa ea minus impedit exercitationem numquam earum amet vero dolore odit quasi ipsam voluptatem, deserunt fugit!
-          </div>
-        </div>
+  <nav class="navbar navbar-expand-lg custom-navbar bg-dark">
+    <a class="navbar-brand text-white">Eduardo Martínez</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link text-white" href="./index.html">About Me</a>
+        <a class="nav-item nav-link text-white" href="./portfolio.html">Portfolio</a>
+        <a class="nav-item nav-link text-white" href="./contact.html">Contact Me</a>
       </div>
+    </div>
+  </nav>
 
+  <div style="height: 800px;" class="row align-items-center">
+    <div class="col-12 col-md-6 col-xl-6">
+      <img src="./Images/foto.JPG" class="img-thumbnail" alt="Photo of Eduardo Martinez">
+    </div>
+    <div class="col-12 col-md-6 col-xl-6">
+      Welcome to my space! I love history and teaching. I have a degree in History. I won a international scholarship to study my master at Spain a in Research on Teaching and Learning in the Social Sciences. Nowadays I’m studying a Bootcamp to become a Full Stack Web Developer.
+
+      I have taught at all educational levels. I have received awards as the best teacher in my school. I have an
+      educational project on Youtube in which I talk about history. My channel is called "Crónivas en vio" if you
+      want to take a look at it.
+
+      <a class="btn btn-primary"
+        href="https://drive.google.com/file/d/1n-E2X-VuaCM_uQuRYxbmoe1L7w53364F/view?usp=sharing" role="button">Download
+        resume</a>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="text-center bg-dark text-white" style="height: 35px;">
+      <small> Copyright &copy; <a href="./contact.html" class="text-white">Eduardo Martínez</a></small>
+    </div>
+  </footer>
 
 </body>
 
